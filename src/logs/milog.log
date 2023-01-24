@@ -1,0 +1,6 @@
+[2023-01-24T22:16:25.564907+01:00] MiApp.DEBUG: Esto es un mensaje de DEBUG [] []
+[2023-01-24T22:16:25.570783+01:00] MiApp.INFO: Esto es un mensaje de INF [] []
+[2023-01-24T22:16:25.570967+01:00] MiApp.WARNING: Esto es un mensaje de WARNING [] []
+[2023-01-24T22:16:25.571196+01:00] MiApp.ERROR: Esto es un mensaje de ERROR [] []
+[2023-01-24T22:16:25.571347+01:00] MiApp.CRITICAL: Esto es un mensaje de CRITICAL [] []
+[2023-01-24T22:16:25.571483+01:00] MiApp.ALERT: Esto es un mensaje de ALERT [] []
