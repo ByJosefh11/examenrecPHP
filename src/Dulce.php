@@ -1,6 +1,7 @@
 <?php
 
 include_once "Resumible.php";
+include_once("../util/LogFactory.php");
 
 //Al transformar dulce en una clase abstracta, lo que conseguimos es que no se puedan crear objetos de esta clase. Sino solo de las clases hijas.
 abstract class Dulce implements Resumible{
@@ -17,6 +18,7 @@ abstract class Dulce implements Resumible{
         $this -> nombre = $nombre;
         $this -> numero = $numero;
         $this -> precio = $precio;
+ 
     }
 
     public function getPrecio()

@@ -18,8 +18,7 @@ $log->error("Esto es un mensaje de ERROR");
 $log->critical("Esto es un mensaje de CRITICAL");
 $log->alert("Esto es un mensaje de ALERT");
 
-$log->warning("Producto no encontrado", [$producto]);
-$log->warning("Producto no encontrado", ["datos" => $producto]);
+
 
 $log->pushHandler(new StreamHandler("php://stderr", Logger::DEBUG));
 
